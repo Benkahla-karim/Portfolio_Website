@@ -251,7 +251,7 @@ img {
 }
 
 .home .home-data {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .home .home-data .home-btn {
@@ -304,7 +304,7 @@ img {
   color: var(--body-color);
 }
 
-.home .home-img .image {
+/* .home .home-img .image {
   height: 350px;
   width: 300px;
   border-radius: 47% 47% 0 0;
@@ -314,16 +314,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-}
+} */
 
-.home .home-img .image img {
+/* .home .home-img .image img {
   height: 90%;
   object-fit: cover;
-}
+} */
 
 .home .media {
   position: absolute;
-  bottom: 20px;
+  bottom: 50%;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -370,28 +370,28 @@ img {
   margin-bottom: 40px;
 }
 
-.about .about-container {
+/* .about .about-container {
   display: flex;
   gap: 60px;
-}
+} */
 
-.about .about-img {
+/* .about .about-img {
   flex-basis: 48%;
   overflow: hidden;
   border-radius: 9px;
-}
+} */
 
-.about .about-img img {
+/* .about .about-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 
-.about .about-data {
+/* .about .about-data {
   flex-basis: 48%;
-}
+} */
 
-.about .box-container {
+/* .about .box-container {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -420,8 +420,14 @@ img {
 
 .about .about-data button {
   margin-top: 20px;
-}
+} */
+.about .about-data p {
+ text-align: center;
+ font-size: 24px;
+ /* font-weight: bold; */
+ line-height: 1.5;
 
+}
 /* media query */
 @media (max-width:992px) {
   .about .about-data p {
@@ -473,11 +479,11 @@ img {
 }
 
 .experience .box {
-  padding: 20px 60px;
+  padding: 40px 80px;
   text-align: center;
   background-color: var(--container-color);
   border-radius: 9px;
-  width: 400px;
+  /* width: 400px; */
   box-shadow: 0 2px 9px rgb(0 0 0 / 20%);
 }
 
@@ -489,7 +495,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin: 15px 0;
-  gap: 15px;
+  gap: 100px;
 }
 
 .experience .skill {
@@ -523,6 +529,9 @@ img {
 
   .experience .box {
     width: 100%;
+  }
+  .experience .skills {
+    gap: 15px;
   }
 }
 
@@ -666,6 +675,7 @@ img {
 
 .works .category {
   width: 300px;
+
   padding: 10px;
   border-radius: 9px;
   background-color: var(--container-color);
@@ -680,6 +690,7 @@ img {
 .works .category img {
   width: 100%;
   height: 100%;
+    object-fit: cover;
   border-radius: 9px;
 }
 
@@ -792,7 +803,9 @@ img {
 }
 
 .contact .talk {
-  text-align: center;
+  display: flex;
+  gap: 40px;
+  /* text-align: center; */
 }
 
 .contact h3 {
@@ -808,7 +821,7 @@ img {
 
 .contact .box {
   text-align: center;
-  padding: 20px 35px;
+  padding: 20px 60px;
   background-color: var(--container-color);
   border-radius: 9px;
   margin-bottom: 15px;

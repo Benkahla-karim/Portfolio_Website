@@ -66,30 +66,30 @@ function showCategorys(buttonCategory) {
     }
 }
 // scroll in testimonialsContianer 
-testimonialsContianer.addEventListener("touchstart", e => {
-    e.target.style.transform = `translateX(-400px)`
-    console.log(e.target)
-})
+// testimonialsContianer.addEventListener("touchstart", e => {
+//     e.target.style.transform = `translateX(-400px)`
+//     console.log(e.target)
+// })
 
 // Swipper amimation
-let swiperTestimonials = new Swiper(".container-swip", {
-    spaceBetween: 24,
-    loop: true,
-    grabCursor: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    breakpoints: {
-        576: {
-            slidesPerView: 2,
-        },
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 48,
-        },
-    },
-});
+// let swiperTestimonials = new Swiper(".container-swip", {
+//     spaceBetween: 24,
+//     loop: true,
+//     grabCursor: true,
+//     pagination: {
+//         el: ".swiper-pagination",
+//         clickable: true,
+//     },
+//     breakpoints: {
+//         576: {
+//             slidesPerView: 2,
+//         },
+//         768: {
+//             slidesPerView: 2,
+//             spaceBetween: 48,
+//         },
+//     },
+// });
 // Add dark mode
 const darkButton = document.querySelector(" .theme-button")
 const darkTheme = "dark-theme";
